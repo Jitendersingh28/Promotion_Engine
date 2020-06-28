@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs/Promotion_Engine/v16/.suo
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs
+/Promotion_Engine/obj/Debug/netcoreapp3.1/Promotion_Engine.AssemblyInfoInputs.cache
+/Promotion_Engine/obj/Debug/netcoreapp3.1/Promotion_Engine.assets.cache
+/Promotion_Engine/obj/Debug/netcoreapp3.1/Promotion_Engine.csprojAssemblyReference.cache
+/Promotion_Engine/obj/project.assets.json
+/Promotion_Engine/obj/project.nuget.cache
+/Promotion_Engine/obj/Promotion_Engine.csproj.nuget.dgspec.json
+/Promotion_Engine/obj/Promotion_Engine.csproj.nuget.g.props
+/Promotion_Engine/obj/Promotion_Engine.csproj.nuget.g.targets
+/Promotion_Engine.sln
+/Promotion_Engine/Promotion_Engine.csproj
+/Promotion_Engine/bin/Debug/netcoreapp3.1
+/Promotion_Engine/obj/Debug/netcoreapp3.1
