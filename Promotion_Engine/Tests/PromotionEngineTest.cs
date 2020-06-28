@@ -7,10 +7,17 @@ namespace Promotion_Engine.Tests
 {
     public class PromotionEngineTest
     {
-        [Fact]
-        public void Test1()
-        {
+        readonly PromotionEngine engine;
 
+        public PromotionEngineTest()
+        {
+            engine = new PromotionEngine();
+        }
+       
+        public void PromotionEngineTest1()
+        {
+            int score = engine.getTotalPrice();
+            Assert.True(score == 275);
         }
     }
 }

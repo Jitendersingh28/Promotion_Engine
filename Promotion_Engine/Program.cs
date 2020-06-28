@@ -7,9 +7,8 @@ namespace Promotion_Engine
     {
         static void Main(string[] args)
         {
-            PromotionAB A = new PromotionAB();
-            int a =A.GetPriceAfterPromotion();
-            Console.WriteLine(a);
+            PromotionEngine pE = new PromotionEngine();
+            pE.getTotalPrice();
         }
     }
 }
