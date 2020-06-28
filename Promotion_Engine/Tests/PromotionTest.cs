@@ -14,10 +14,10 @@ namespace Promotion_Engine.Tests
             _promotionAB = new PromotionAB();
         }
         [Fact]
-        public void  PrmotionA()
+        public void  PrmotionAB()
         {
            int score = _promotionAB.GetPriceAfterPromotion();
-                Assert.True(score == 180);  
+                Assert.True(score == 225);  
         }
     }
 }
