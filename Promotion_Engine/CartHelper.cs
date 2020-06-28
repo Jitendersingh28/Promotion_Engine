@@ -6,7 +6,7 @@ namespace Promotion_Engine
 {
     public class CartHelper
     {
-        List<Cart> GetItemsFromCart()
+        public List<Cart> GetItemsFromCart()
         {
             List<Cart> carts = new List<Cart>();
             Cart cartA = new Cart();

@@ -6,6 +6,7 @@ namespace Promotion_Engine.Promotion
 {
     public class PromotionCD : IPromotion
     {
+
         public int GetPriceAfterPromotion()
         {
             throw new NotImplementedException();

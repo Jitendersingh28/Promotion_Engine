@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Promotion_Engine.Promotion;
+using System;
 
 namespace Promotion_Engine
 {
@@ -6,7 +7,9 @@ namespace Promotion_Engine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PromotionAB A = new PromotionAB();
+            int a =A.GetPriceAfterPromotion();
+            Console.WriteLine(a);
         }
     }
 }
