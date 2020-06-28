@@ -9,6 +9,7 @@ namespace Promotion_Engine.Tests
     public class PromotionTest
     {
         readonly PromotionAB _promotionAB;
+        readonly PromotionCD _promotionCD;
         public PromotionTest()
         {
             _promotionAB = new PromotionAB();
@@ -18,6 +19,12 @@ namespace Promotion_Engine.Tests
         {
            int score = _promotionAB.GetPriceAfterPromotion();
                 Assert.True(score == 225);  
+        }
+
+        public void PromotionCD()
+        {
+            int score = _promotionCD.GetPriceAfterPromotion();
+            Assert.True(score == 50);
         }
     }
 }
